@@ -6,42 +6,42 @@ const Projects = () => {
   const list = [
     {
       title: "Oil and Filter Changes",
-      img: "/oilchange.jpeg",
+      img: "./oilchange.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Tire Rotation",
-      img: "/tirerotation.jpeg",
+      img: "./tirerotation.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Brake Service",
-      img: "/brakeservice.jpeg",
+      img: "./brakeservice.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Transmission Service",
-      img: "/transmissionservice.jpeg",
+      img: "./transmissionservice.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Air Filter Replacement",
-      img: "/airfilter.jpeg",
+      img: "./airfilter.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Battery Replacement",
-      img: "/batteryreplacement.jpeg",
+      img: "./batteryreplacement.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Engine Tune-up",
-      img: "/enginetune-up.jpeg",
+      img: "./enginetune-up.jpeg",
       price: "Avg. $50 - $70",
     },
     {
       title: "Wiper blades replacement",
-      img: "/wiperblades.jpeg",
+      img: "./wiperblades.jpeg",
       price: "Avg. $50 - $70",
     },
   ];

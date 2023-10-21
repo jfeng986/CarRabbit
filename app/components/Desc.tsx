@@ -26,7 +26,7 @@ const Desc = () => {
       <div className="flex-1">
         <Image
           alt="Man holding a box"
-          src="/test01.avif"
+          src="./test01.avif"
           className="w-full h-auto"
         />
       </div>

@@ -7,7 +7,7 @@ const Desc2 = () => {
       <div className="flex-1">
         <Image
           alt="Man holding a box"
-          src="/desc2.jpeg"
+          src="./desc2.jpeg"
           className="w-[500px] h-[400px]"
         />
       </div>
