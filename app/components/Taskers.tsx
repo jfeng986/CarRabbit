@@ -14,7 +14,7 @@ const Taskers = () => {
       },
       description:
         "I'm the right person for the job: I have supplies and resources available for helping you with your move ins, move outs and move aroun...",
-      img: "/man.jpeg",
+      img: "./man.jpeg",
     },
     {
       name: "Jeffrey C.",
@@ -27,7 +27,7 @@ const Taskers = () => {
       },
       description:
         "I'm the right person for the job: I have supplies and resources available for helping you with your move ins, move outs and move aroun...",
-      img: "/man.jpeg",
+      img: "./man.jpeg",
     },
     {
       name: "Jeffrey C.",
