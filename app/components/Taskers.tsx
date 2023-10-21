@@ -49,7 +49,11 @@ const Taskers = () => {
       <div className="p-4 text-3xl font-bold">Taskers for Hire</div>
       <div className="gap-1 grid grid-cols-2 sm:grid-cols-3 p-4">
         {list.map((item, index) => (
-          <div className="p-2 flex flex-col" style={{ height: "500px" }}>
+          <div
+            className="p-2 flex flex-col"
+            style={{ height: "500px" }}
+            key={index}
+          >
             <Card
               shadow="sm"
               key={index}

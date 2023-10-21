@@ -51,7 +51,11 @@ const Projects = () => {
       <div className="p-4 text-3xl font-bold">Popular projects in Portland</div>
       <div className="gap-1 grid grid-cols-2 sm:grid-cols-4 p-4">
         {list.map((item, index) => (
-          <div className="p-2 flex flex-col" style={{ height: "300px" }}>
+          <div
+            className="p-2 flex flex-col"
+            style={{ height: "300px" }}
+            key={index}
+          >
             <Card shadow="sm" key={index} isPressable className="flex-grow">
               <CardBody className="overflow-visible p-0">
                 <Image
